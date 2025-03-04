@@ -55,7 +55,7 @@ export default function Product9Page() {
 
         {/* Atlas Copco Section */}
         <div className="flex flex-wrap justify-between items-center mb-8">
-          <h2 className="text-2xl font-bold border-b-2 border-[#00aeef] pb-1">WEG Motors</h2>
+          <h2 className="text-2xl font-bold border-b-2 border-[#00aeef] pb-1">Snap On Tools</h2>
           <div className="relative w-full md:w-64 mt-4 md:mt-0">
             <select className="w-full border border-[#a9a9a9] rounded px-4 py-2 appearance-none">
               <option>--Select--</option>
@@ -64,9 +64,9 @@ export default function Product9Page() {
               <option>Kirloskar</option>
               <option>Danfoss Drives</option>
               <option>Symphony Air Coolers</option>
-              <option>Snap On Tools</option>
               <option>Praj Hipurity Systems</option>
               <option>Nilfisk</option>
+              <option>WEG Motors</option>
               <option>Everest Vacuum Pumps & Blowers</option>
               <option>BMD Engineering Scrappers</option>
             </select>

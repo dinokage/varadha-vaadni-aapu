@@ -2,7 +2,7 @@ import Image from "next/image"
 import { Search, ChevronDown, Twitter, Facebook, Linkedin } from "lucide-react"
 import Link from "next/link"
 
-export default function Product2Page() {
+export default function Product5Page() {
   return (
     <div className="flex flex-col min-h-screen bg-[#fff9e3]">
       {/* Header */}
@@ -14,6 +14,25 @@ export default function Product2Page() {
               <span className="text-xl font-bold">Classique</span>
             </Link>
           </div> */}
+
+          {/* <nav className="hidden md:flex space-x-8">
+            <Link href="/" className="hover:text-[#00aeef]">
+              HOME
+            </Link>
+            <Link href="/about" className="hover:text-[#00aeef]">
+              ABOUT US
+            </Link>
+            <Link href="/products" className="text-[#00aeef] border-b-2 border-[#00aeef]">
+              PRODUCTS
+            </Link>
+            <Link href="/services" className="hover:text-[#00aeef]">
+              SERVICES
+            </Link>
+            <Link href="/gallery" className="hover:text-[#00aeef]">
+              GALLERY
+            </Link>
+          </nav> */}
+
           {/* <div className="relative mt-4 md:mt-0 w-full md:w-auto">
             <input
               type="text"
@@ -36,14 +55,14 @@ export default function Product2Page() {
 
         {/* Atlas Copco Section */}
         <div className="flex flex-wrap justify-between items-center mb-8">
-          <h2 className="text-2xl font-bold border-b-2 border-[#00aeef] pb-1">SEW Eurodrive</h2>
+          <h2 className="text-2xl font-bold border-b-2 border-[#00aeef] pb-1">Symphony Air Coolers</h2>
           <div className="relative w-full md:w-64 mt-4 md:mt-0">
             <select className="w-full border border-[#a9a9a9] rounded px-4 py-2 appearance-none">
               <option>--Select--</option>
               <option>Atlas Copco</option>
               <option>Kirloskar</option>
               <option>Danfoss Drives</option>
-              <option>Symphony Air Coolers</option>
+              <option>SEW Eurodrive</option>
               <option>Snap On Tools</option>
               <option>Praj Hipurity Systems</option>
               <option>Nilfisk</option>
@@ -62,7 +81,7 @@ export default function Product2Page() {
             <div className="flex flex-col md:flex-row">
               <div className="w-full md:w-2/5">
                 <Image
-                  src="/image 27.png"
+                  src="/image 56.png"
                   alt="Air Dryers"
                   width={200}
                   height={200}
@@ -70,10 +89,11 @@ export default function Product2Page() {
                 />
               </div>
               <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
-                <h3 className="text-xl font-semibold mb-3">R SERIES GEAR BOX</h3>
+                <h3 className="text-xl font-semibold mb-3">SYMPHONY AIR COOLERS
+                FOR INDUSTRIAL PURPOSE</h3>
                 <div className="text-sm space-y-2">
-                  <p>Capacity FAD l/s : 1.7 l/s - 12.9 l/s</p>
-                  <p>Working pressure : 2 bar(e) - 14 bar(e)</p>
+                  <p>Capacity FAD I/s : 1.7 I/s - 12.9 I/s</p>
+                  <p>Working pressure : 2 bar(e) - 14 bare(e)</p>
                   <p>Installed motor power : 1.5 kW - 8.1 kW</p>
                 </div>
               </div>
@@ -85,7 +105,7 @@ export default function Product2Page() {
             <div className="flex flex-col md:flex-row">
               <div className="w-full md:w-2/5">
                 <Image
-                  src="/image 28.png"
+                  src="/image 57.png"
                   alt="Gas Generators"
                   width={200}
                   height={200}
@@ -93,130 +113,10 @@ export default function Product2Page() {
                 />
               </div>
               <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
-                <h3 className="text-xl font-semibold mb-3">F SERIES GEAR BOX</h3>
+                <h3 className="text-xl font-semibold mb-3">SYMPHONY EASILY MOVABLE
+AIR COOLERS FOR
+INDUSTRIAL PURPOSE</h3>
                 <div className="text-sm space-y-2">
-                  <p>Capacity FAD l/s : 1.7 l/s - 12.9 l/s</p>
-                  <p>Working pressure : 2 bar(e) - 14 bar(e)</p>
-                  <p>Installed motor power : 1.5 kW - 8.1 kW</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Air Compressors */}
-          <div className="bg-white rounded-lg overflow-hidden shadow-md">
-            <div className="flex flex-col md:flex-row">
-              <div className="w-full md:w-2/5">
-                <Image
-                  src="/image 29.png"
-                  alt="Air Compressors"
-                  width={200}
-                  height={200}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
-                <h3 className="text-xl font-semibold mb-3">K SERIES GEAR BOX</h3>
-                <div className="text-sm space-y-2">
-                  <p>Capacity FAD l/s : 1.7 l/s - 12.9 l/s</p>
-                  <p>Working pressure : 2 bar(e) - 14 bar(e)</p>
-                  <p>Installed motor power : 1.5 kW - 8.1 kW</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Marine Compressors */}
-          <div className="bg-white rounded-lg overflow-hidden shadow-md">
-            <div className="flex flex-col md:flex-row">
-              <div className="w-full md:w-2/5">
-                <Image
-                  src="/image 29.png"
-                  alt="Marine Compressors"
-                  width={200}
-                  height={200}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
-                <h3 className="text-xl font-semibold mb-3">S SERIES GEAR BOX</h3>
-                <div className="text-sm space-y-2">
-                  <p>Capacity FAD l/s : 1.7 l/s - 12.9 l/s</p>
-                  <p>Working pressure : 2 bar(e) - 14 bar(e)</p>
-                  <p>Installed motor power : 1.5 kW - 8.1 kW</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Air Receivers & Aftercoolers */}
-          <div className="bg-white rounded-lg overflow-hidden shadow-md">
-            <div className="flex flex-col md:flex-row">
-              <div className="w-full md:w-2/5">
-                <Image
-                  src="/image 34.png"
-                  alt="Air Receivers & Aftercoolers"
-                  width={200}
-                  height={200}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
-                <h3 className="text-xl font-semibold mb-3">W SERIES GEAR BOX</h3>
-                <div className="text-sm space-y-2">
-                  <p>Capacity FAD l/s : 1.7 l/s - 12.9 l/s</p>
-                  <p>Working pressure : 2 bar(e) - 14 bar(e)</p>
-                  <p>Installed motor power : 1.5 kW - 8.1 kW</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Oil-Free Air & Nitrogen Boosters */}
-          <div className="bg-white rounded-lg overflow-hidden shadow-md">
-            <div className="flex flex-col md:flex-row">
-              <div className="w-full md:w-2/5">
-                <Image
-                  src="/image 35.png"
-                  alt="Oil-Free Air & Nitrogen Boosters"
-                  width={200}
-                  height={200}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              
-              <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
-                <h3 className="text-xl font-semibold mb-3">SEW VARIABLE FREQUENCY DRIVES</h3>
-                <div className="text-sm space-y-2">
-                  <p>Capacity FAD l/s : 1.7 l/s - 12.9 l/s</p>
-                  <p>Working pressure : 2 bar(e) - 14 bar(e)</p>
-                  <p>Installed motor power : 1.5 kW - 8.1 kW</p>
-                </div>
-                
-              </div>
-            </div>
-            
-          </div>
-        </div>
-
-        {/* Additional Grid Columns */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
-          {/* Additional Item 1 */}
-          <div className="bg-white rounded-lg overflow-hidden shadow-md">
-            <div className="flex flex-col md:flex-row">
-              <div className="w-full md:w-2/5">
-                <Image
-                  src="/image 36.png"
-                  alt="Additional Item 1"
-                  width={200}
-                  height={200}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
-                <h3 className="text-xl font-semibold mb-3"></h3>
-                <div className="text-sm space-y-2">
-                <h3 className="text-xl font-semibold mb-3">SEW MOVIGEAR</h3>
                   <p>Capacity FAD I/s : 1.7 I/s - 12.9 I/s</p>
                   <p>Working pressure : 2 bar(e) - 14 bare(e)</p>
                   <p>Installed motor power : 1.5 kW - 8.1 kW</p>
@@ -225,22 +125,23 @@ export default function Product2Page() {
             </div>
           </div>
 
+{/* 
           {/* Additional Item 2 */}
           <div className="bg-white rounded-lg overflow-hidden shadow-md">
             <div className="flex flex-col md:flex-row">
               <div className="w-full md:w-2/5">
                 <Image
-                  src="/image 37.png"
+                  src="/image 58.png"
                   alt="Additional Item 2"
                   width={200}
                   height={200}
                   className="w-full h-full object-cover"
                 />
-              </div>
+              </div> */
               <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
                 <h3 className="text-xl font-semibold mb-3"></h3>
                 <div className="text-sm space-y-2">
-                <h3 className="text-xl font-semibold mb-3">SEW MOVIMOT</h3>
+                <h3 className="text-xl font-semibold mb-3">VENTICOOL 25 U MODEL</h3>
                   <p>Capacity FAD I/s : 1.7 I/s - 12.9 I/s</p>
                   <p>Working pressure : 2 bar(e) - 14 bare(e)</p>
                   <p>Installed motor power : 1.5 kW - 8.1 kW</p>
@@ -254,7 +155,7 @@ export default function Product2Page() {
             <div className="flex flex-col md:flex-row">
               <div className="w-full md:w-2/5">
                 <Image
-                  src="/image 38.png"
+                  src="/image 59.png"
                   alt="Additional Item 3"
                   width={200}
                   height={200}
@@ -262,8 +163,7 @@ export default function Product2Page() {
                 />
               </div>
               <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
-                <h3 className="text-xl font-semibold mb-3">SEW INDUSTRIAL
-                GEAR BOX</h3>
+                <h3 className="text-xl font-semibold mb-3">VENTIFLO</h3>
                 <div className="text-sm space-y-2">
                   <p>Capacity FAD I/s : 1.7 I/s - 12.9 I/s</p>
                   <p>Working pressure : 2 bar(e) - 14 bare(e)</p>

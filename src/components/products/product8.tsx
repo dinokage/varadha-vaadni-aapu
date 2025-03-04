@@ -2,7 +2,7 @@ import Image from "next/image"
 import { Search, ChevronDown, Twitter, Facebook, Linkedin } from "lucide-react"
 import Link from "next/link"
 
-export default function Product8Page() {
+export default function Product3Page() {
   return (
     <div className="flex flex-col min-h-screen bg-[#fff9e3]">
       {/* Header */}
@@ -55,17 +55,17 @@ export default function Product8Page() {
 
         {/* Atlas Copco Section */}
         <div className="flex flex-wrap justify-between items-center mb-8">
-          <h2 className="text-2xl font-bold border-b-2 border-[#00aeef] pb-1">Kirloskar</h2>
+          <h2 className="text-2xl font-bold border-b-2 border-[#00aeef] pb-1">Nilfisk</h2>
           <div className="relative w-full md:w-64 mt-4 md:mt-0">
             <select className="w-full border border-[#a9a9a9] rounded px-4 py-2 appearance-none">
               <option>--Select--</option>
               <option>Atlas Copco</option>
               <option>SEW Eurodrive</option>
+              <option>Kirloskar</option>
               <option>Danfoss Drives</option>
               <option>Symphony Air Coolers</option>
               <option>Snap On Tools</option>
               <option>Praj Hipurity Systems</option>
-              <option>Nilfisk</option>
               <option>WEG Motors</option>
               <option>Everest Vacuum Pumps & Blowers</option>
               <option>BMD Engineering Scrappers</option>
@@ -76,20 +76,20 @@ export default function Product8Page() {
 
         {/* Product Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {/* KS PUMP */}
+          {/* DRY VACUUM */}
           <div className="bg-white rounded-lg overflow-hidden shadow-md">
             <div className="flex flex-col md:flex-row">
               <div className="w-full md:w-2/5">
                 <Image
-                  src="/image 39.png"
-                  alt="KS PUMP"
+                  src="/image 77.png"
+                  alt="DRY VACUUM"
                   width={200}
                   height={200}
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
-                <h3 className="text-xl font-semibold mb-3">KS PUMP</h3>
+                <h3 className="text-xl font-semibold mb-3">DRY VACUUM</h3>
                 <div className="text-sm space-y-2">
                   <p>Capacity FAD I/s : 1.7 I/s - 12.9 I/s</p>
                   <p>Working pressure : 2 bar(e) - 14 bare(e)</p>
@@ -99,20 +99,20 @@ export default function Product8Page() {
             </div>
           </div>
 
-          {/* KDS/GMC PUMP */}
+          {/* DRY VACUUM */}
           <div className="bg-white rounded-lg overflow-hidden shadow-md">
             <div className="flex flex-col md:flex-row">
               <div className="w-full md:w-2/5">
                 <Image
-                  src="/image 40.png"
-                  alt="KDS/GMC PUMP"
+                  src="/image 78.png"
+                  alt="DRY VACUUM"
                   width={200}
                   height={200}
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
-                <h3 className="text-xl font-semibold mb-3">KDS/GMC PUMP</h3>
+                <h3 className="text-xl font-semibold mb-3">DRY VACUUM</h3>
                 <div className="text-sm space-y-2">
                   <p>Capacity FAD I/s : 1.7 I/s - 12.9 I/s</p>
                   <p>Working pressure : 2 bar(e) - 14 bare(e)</p>
@@ -122,20 +122,20 @@ export default function Product8Page() {
             </div>
           </div>
 
-          {/* KDT PUMP */}
+          {/* DRY VACUUM */}
           <div className="bg-white rounded-lg overflow-hidden shadow-md">
             <div className="flex flex-col md:flex-row">
               <div className="w-full md:w-2/5">
                 <Image
-                  src="/image 41.png"
-                  alt="KDT PUMP"
+                  src="/image 79.png"
+                  alt="DRY VACUUM"
                   width={200}
                   height={200}
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
-                <h3 className="text-xl font-semibold mb-3">KDT PUMP</h3>
+                <h3 className="text-xl font-semibold mb-3">DRY VACUUM</h3>
                 <div className="text-sm space-y-2">
                   <p>Capacity FAD I/s : 1.7 I/s - 12.9 I/s</p>
                   <p>Working pressure : 2 bar(e) - 14 bare(e)</p>
@@ -145,20 +145,20 @@ export default function Product8Page() {
             </div>
           </div>
 
-          {/* KDI PUMP */}
+          {/* SINGLE DISC */}
           <div className="bg-white rounded-lg overflow-hidden shadow-md">
             <div className="flex flex-col md:flex-row">
               <div className="w-full md:w-2/5">
                 <Image
-                  src="/image 42.png"
-                  alt="KDI PUMP"
+                  src="/image 80.png"
+                  alt="SINGLE DISC"
                   width={200}
                   height={200}
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
-                <h3 className="text-xl font-semibold mb-3">KDI PUMP</h3>
+                <h3 className="text-xl font-semibold mb-3">SINGLE DISC</h3>
                 <div className="text-sm space-y-2">
                   <p>Capacity FAD I/s : 1.7 I/s - 12.9 I/s</p>
                   <p>Working pressure : 2 bar(e) - 14 bar(e)</p>
@@ -168,20 +168,20 @@ export default function Product8Page() {
             </div>
           </div>
 
-          {/* KOS PUMP */}
+          {/* SINGLE DISC */}
           <div className="bg-white rounded-lg overflow-hidden shadow-md">
             <div className="flex flex-col md:flex-row">
               <div className="w-full md:w-2/5">
                 <Image
-                  src="/image 43.png"
-                  alt="KOS PUMP"
+                  src="/image 81.png"
+                  alt="SINGLE DISC"
                   width={200}
                   height={200}
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
-                <h3 className="text-xl font-semibold mb-3">KOS PUMP</h3>
+                <h3 className="text-xl font-semibold mb-3">SINGLE DISC</h3>
                 <div className="text-sm space-y-2">
                   <p>Capacity FAD l/s : 1.7 l/s - 12.9 l/s</p>
                   <p>Working pressure : 2 bar(e) - 14 bar(e)</p>
@@ -191,13 +191,13 @@ export default function Product8Page() {
             </div>
           </div>
 
-          {/* SP BARE SHAFT PUMP */}
+          {/* RIDE ON SCRUBBER */}
           <div className="bg-white rounded-lg overflow-hidden shadow-md">
             <div className="flex flex-col md:flex-row">
               <div className="w-full md:w-2/5">
                 <Image
-                  src="/image 44.png"
-                  alt="SP BARE SHAFT PUMP"
+                  src="/image 82.png"
+                  alt="RIDE ON SCRUBBER"
                   width={200}
                   height={200}
                   className="w-full h-full object-cover"
@@ -205,7 +205,7 @@ export default function Product8Page() {
               </div>
               
               <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
-                <h3 className="text-xl font-semibold mb-3">SP BARE SHAFT PUMP</h3>
+                <h3 className="text-xl font-semibold mb-3">RIDE ON SCRUBBER</h3>
                 <div className="text-sm space-y-2">
                   <p>Capacity FAD l/s : 1.7 l/s - 12.9 l/s</p>
                   <p>Working pressure : 2 bar(e) - 14 bar(e)</p>
@@ -218,22 +218,22 @@ export default function Product8Page() {
           </div>
         </div>
 
-        {/* SP MONOBLOC PUMP */}
+        {/* RIDE ON SCRUBBER */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
-          {/* SP MONOBLOC PUMP */}
+          {/* RIDE ON SCRUBBER */}
           <div className="bg-white rounded-lg overflow-hidden shadow-md">
             <div className="flex flex-col md:flex-row">
               <div className="w-full md:w-2/5">
                 <Image
-                  src="/image 45.png"
-                  alt="SP MONOBLOC PUMP"
+                  src="/image 83.png"
+                  alt="RIDE ON SCRUBBER"
                   width={200}
                   height={200}
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
-                <h3 className="text-xl font-semibold mb-3">SP MONOBLOC PUMP</h3>
+                <h3 className="text-xl font-semibold mb-3">RIDE ON SCRUBBER</h3>
                 <div className="text-sm space-y-2">
                   <p>Capacity FAD l/s : 1.7 l/s - 12.9 l/s</p>
                   <p>Working pressure : 2 bar(e) - 14 bar(e)</p>
@@ -243,20 +243,20 @@ export default function Product8Page() {
             </div>
           </div>
 
-          {/* SP COUPLED PUMPSET */}
+          {/* WALK BEHIND SCRUBBER */}
           <div className="bg-white rounded-lg overflow-hidden shadow-md">
             <div className="flex flex-col md:flex-row">
               <div className="w-full md:w-2/5">
                 <Image
-                  src="/image 46.png"
-                  alt="SP COUPLED PUMPSET"
+                  src="/image 84.png"
+                  alt="WALK BEHIND SCRUBBER"
                   width={200}
                   height={200}
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
-                <h3 className="text-xl font-semibold mb-3">SP COUPLED PUMPSET</h3>
+                <h3 className="text-xl font-semibold mb-3">WALK BEHIND SCRUBBER</h3>
                 <div className="text-sm space-y-2">
                   <p>Capacity FAD l/s : 1.7 l/s - 12.9 l/s</p>
                   <p>Working pressure : 2 bar(e) - 14 bar(e)</p>
@@ -266,20 +266,20 @@ export default function Product8Page() {
             </div>
           </div>
 
-          {/* CW ETERNA PUMP */}
+          {/* RIDE ON SCRUBBER */}
           <div className="bg-white rounded-lg overflow-hidden shadow-md">
             <div className="flex flex-col md:flex-row">
               <div className="w-full md:w-2/5">
                 <Image
-                  src="/image 47.png"
-                  alt="CW ETERNA PUMP"
+                  src="/image 85.png"
+                  alt="RIDE ON SCRUBBER"
                   width={200}
                   height={200}
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
-                <h3 className="text-xl font-semibold mb-3">CW ETERNA PUMP</h3>
+                <h3 className="text-xl font-semibold mb-3">RIDE ON SCRUBBER</h3>
                 <div className="text-sm space-y-2">
                   <p>Capacity FAD l/s : 1.7 l/s - 12.9 l/s</p>
                   <p>Working pressure : 2 bar(e) - 14 bar(e)</p>
@@ -289,20 +289,135 @@ export default function Product8Page() {
             </div>
           </div>
 
-          {/* SW ETERNA PUMP */}
+          {/* MANUAL SWEEPER */}
           <div className="bg-white rounded-lg overflow-hidden shadow-md">
             <div className="flex flex-col md:flex-row">
               <div className="w-full md:w-2/5">
                 <Image
-                  src="/image 50.png"
-                  alt="SW ETERNA PUMP"
+                  src="/image 86.png"
+                  alt="MANUAL SWEEPER"
                   width={200}
                   height={200}
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
-                <h3 className="text-xl font-semibold mb-3">SW ETERNA PUMP</h3>
+                <h3 className="text-xl font-semibold mb-3">MANUAL SWEEPER</h3>
+                <div className="text-sm space-y-2">
+                  <p>Capacity FAD l/s : 1.7 l/s - 12.9 l/s</p>
+                  <p>Working pressure : 2 bar(e) - 14 bar(e)</p>
+                  <p>Installed motor power : 1.5 kW - 8.1 kW</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* MANUAL SWEEPER */}
+          <div className="bg-white rounded-lg overflow-hidden shadow-md">
+            <div className="flex flex-col md:flex-row">
+              <div className="w-full md:w-2/5">
+                <Image
+                  src="/image 87.png"
+                  alt="MANUAL SWEEPER"
+                  width={200}
+                  height={200}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
+                <h3 className="text-xl font-semibold mb-3">MANUAL SWEEPER</h3>
+                <div className="text-sm space-y-2">
+                  <p>Capacity FAD l/s : 1.7 l/s - 12.9 l/s</p>
+                  <p>Working pressure : 2 bar(e) - 14 bar(e)</p>
+                  <p>Installed motor power : 1.5 kW - 8.1 kW</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* RIDE ON SWEEPER */}
+          <div className="bg-white rounded-lg overflow-hidden shadow-md">
+            <div className="flex flex-col md:flex-row">
+              <div className="w-full md:w-2/5">
+                <Image
+                  src="/image 88.png"
+                  alt="RIDE ON SWEEPER"
+                  width={200}
+                  height={200}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
+                <h3 className="text-xl font-semibold mb-3">RIDE ON SWEEPER</h3>
+                <div className="text-sm space-y-2">
+                  <p>Capacity FAD l/s : 1.7 l/s - 12.9 l/s</p>
+                  <p>Working pressure : 2 bar(e) - 14 bar(e)</p>
+                  <p>Installed motor power : 1.5 kW - 8.1 kW</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* WET & DRY VACUUM CLEANER */}
+          <div className="bg-white rounded-lg overflow-hidden shadow-md">
+            <div className="flex flex-col md:flex-row">
+              <div className="w-full md:w-2/5">
+                <Image
+                  src="/image 89.png"
+                  alt="WET & DRY VACUUM CLEANER"
+                  width={200}
+                  height={200}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
+                <h3 className="text-xl font-semibold mb-3">WET & DRY VACUUM CLEANER</h3>
+                <div className="text-sm space-y-2">
+                  <p>Capacity FAD l/s : 1.7 l/s - 12.9 l/s</p>
+                  <p>Working pressure : 2 bar(e) - 14 bar(e)</p>
+                  <p>Installed motor power : 1.5 kW - 8.1 kW</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* DRY VACUUM CLEANER */}
+          <div className="bg-white rounded-lg overflow-hidden shadow-md">
+            <div className="flex flex-col md:flex-row">
+              <div className="w-full md:w-2/5">
+                <Image
+                  src="/image 90.png"
+                  alt="DRY VACUUM CLEANER"
+                  width={200}
+                  height={200}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
+                <h3 className="text-xl font-semibold mb-3">DRY VACUUM CLEANER</h3>
+                <div className="text-sm space-y-2">
+                  <p>Capacity FAD l/s : 1.7 l/s - 12.9 l/s</p>
+                  <p>Working pressure : 2 bar(e) - 14 bar(e)</p>
+                  <p>Installed motor power : 1.5 kW - 8.1 kW</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* WET & DRY VACUUM CLEANER */}
+          <div className="bg-white rounded-lg overflow-hidden shadow-md">
+            <div className="flex flex-col md:flex-row">
+              <div className="w-full md:w-2/5">
+                <Image
+                  src="/image 91.png"
+                  alt="WET & DRY VACUUM CLEANER"
+                  width={200}
+                  height={200}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
+                <h3 className="text-xl font-semibold mb-3">WET & DRY VACUUM CLEANER</h3>
                 <div className="text-sm space-y-2">
                   <p>Capacity FAD l/s : 1.7 l/s - 12.9 l/s</p>
                   <p>Working pressure : 2 bar(e) - 14 bar(e)</p>
@@ -406,4 +521,5 @@ export default function Product8Page() {
     </div>
   )
 }
+
 

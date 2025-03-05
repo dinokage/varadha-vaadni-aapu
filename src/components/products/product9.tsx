@@ -10,13 +10,13 @@ export default function Product9Page() {
         <div className="container mx-auto px-4 py-4 flex flex-wrap items-center justify-between">
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
-              <div className="w-10 h-10 bg-[#00aeef] rounded mr-2"></div>
-              <span className="text-xl font-bold">Classique</span>
+              {/* <div className="w-10 h-10 bg-[#00aeef] rounded mr-2"></div>
+              <span className="text-xl font-bold">Classique</span> */}
             </Link>
           </div>
 
-          <nav className="hidden md:flex space-x-8">
-            <Link href="/" className="hover:text-[#00aeef]">
+          {/* <nav className="hidden md:flex space-x-8"> */}
+            {/* <Link href="/" className="hover:text-[#00aeef]">
               HOME
             </Link>
             <Link href="/about" className="hover:text-[#00aeef]">
@@ -30,18 +30,18 @@ export default function Product9Page() {
             </Link>
             <Link href="/gallery" className="hover:text-[#00aeef]">
               GALLERY
-            </Link>
-          </nav>
+            </Link> */}
+          {/* </nav> */}
 
           <div className="relative mt-4 md:mt-0 w-full md:w-auto">
             <input
               type="text"
-              placeholder="Search here"
+              // placeholder="Search here"
               className="w-full md:w-64 px-4 py-2 rounded-full text-white"
             />
-            <button className="absolute right-3 top-1/2 transform -translate-y-1/2">
+            {/* <button className="absolute right-3 top-1/2 transform -translate-y-1/2">
               <Search className="h-5 w-5 text-white" />
-            </button>
+            </button> */}
           </div>
         </div>
       </header>
@@ -55,7 +55,7 @@ export default function Product9Page() {
 
         {/* Atlas Copco Section */}
         <div className="flex flex-wrap justify-between items-center mb-8">
-          <h2 className="text-2xl font-bold border-b-2 border-[#00aeef] pb-1">WEG Motors</h2>
+          <h2 className="text-2xl font-bold border-b-2 border-[#00aeef] pb-1">Snap On Tools</h2>
           <div className="relative w-full md:w-64 mt-4 md:mt-0">
             <select className="w-full border border-[#a9a9a9] rounded px-4 py-2 appearance-none">
               <option>--Select--</option>
@@ -64,9 +64,9 @@ export default function Product9Page() {
               <option>Kirloskar</option>
               <option>Danfoss Drives</option>
               <option>Symphony Air Coolers</option>
-              <option>Snap On Tools</option>
               <option>Praj Hipurity Systems</option>
               <option>Nilfisk</option>
+              <option>WEG Motors</option>
               <option>Everest Vacuum Pumps & Blowers</option>
               <option>BMD Engineering Scrappers</option>
             </select>

@@ -10,8 +10,8 @@ export default function Product3Page() {
         <div className="container mx-auto px-4 py-4 flex flex-wrap items-center justify-between">
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
-              {/* <div className="w-10 h-10 bg-[#00aeef] rounded mr-2"></div>
-              <span className="text-xl font-bold">Classique</span> */}
+              {/* <div className="w-10 h-10 bg-[#00aeef] rounded mr-2"></div> */}
+              {/* <span className="text-xl font-bold">Classique</span> */}
             </Link>
           </div>
 
@@ -33,16 +33,16 @@ export default function Product3Page() {
             </Link>
           </nav> */}
 
-          <div className="relative mt-4 md:mt-0 w-full md:w-auto">
+          {/* <div className="relative mt-4 md:mt-0 w-full md:w-auto">
             <input
               type="text"
-              // placeholder="Search here"
-              className="w-full md:w-64 px-4 py-2 rounded-full text-white"
+            //   placeholder="Search here"
+            //   className="w-full md:w-64 px-4 py-2 rounded-full text-white"
             />
-            {/* <button className="absolute right-3 top-1/2 transform -translate-y-1/2">
+            <button className="absolute right-3 top-1/2 transform -translate-y-1/2">
               <Search className="h-5 w-5 text-white" />
-            </button> */}
-          </div>
+            </button>
+          </div> */}
         </div>
       </header>
 
@@ -55,17 +55,17 @@ export default function Product3Page() {
 
         {/* Atlas Copco Section */}
         <div className="flex flex-wrap justify-between items-center mb-8">
-          <h2 className="text-2xl font-bold border-b-2 border-[#00aeef] pb-1">Kirloskar</h2>
+          <h2 className="text-2xl font-bold border-b-2 border-[#00aeef] pb-1">Nilfisk</h2>
           <div className="relative w-full md:w-64 mt-4 md:mt-0">
             <select className="w-full border border-[#a9a9a9] rounded px-4 py-2 appearance-none">
               <option>--Select--</option>
               <option>Atlas Copco</option>
               <option>SEW Eurodrive</option>
+              <option>Kirloskar</option>
               <option>Danfoss Drives</option>
               <option>Symphony Air Coolers</option>
               <option>Snap On Tools</option>
               <option>Praj Hipurity Systems</option>
-              <option>Nilfisk</option>
               <option>WEG Motors</option>
               <option>Everest Vacuum Pumps & Blowers</option>
               <option>BMD Engineering Scrappers</option>
@@ -76,20 +76,20 @@ export default function Product3Page() {
 
         {/* Product Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {/* KS PUMP */}
+          {/* COMPLETE HAND TOOL KIT */}
           <div className="bg-white rounded-lg overflow-hidden shadow-md">
             <div className="flex flex-col md:flex-row">
               <div className="w-full md:w-2/5">
                 <Image
-                  src="/image 39.png"
-                  alt="KS PUMP"
+                  src="/image 60.png"
+                  alt="COMPLETE HAND TOOL KIT"
                   width={200}
                   height={200}
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
-                <h3 className="text-xl font-semibold mb-3">KS PUMP</h3>
+                <h3 className="text-xl font-semibold mb-3">COMPLETE HAND TOOL KIT</h3>
                 <div className="text-sm space-y-2">
                   <p>Capacity FAD I/s : 1.7 I/s - 12.9 I/s</p>
                   <p>Working pressure : 2 bar(e) - 14 bare(e)</p>
@@ -99,20 +99,20 @@ export default function Product3Page() {
             </div>
           </div>
 
-          {/* KDS/GMC PUMP */}
+          {/* CORDLESS POWER TOOLS */}
           <div className="bg-white rounded-lg overflow-hidden shadow-md">
             <div className="flex flex-col md:flex-row">
               <div className="w-full md:w-2/5">
                 <Image
-                  src="/image 40.png"
-                  alt="KDS/GMC PUMP"
+                  src="/image 61.png"
+                  alt="CORDLESS POWER TOOLS"
                   width={200}
                   height={200}
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
-                <h3 className="text-xl font-semibold mb-3">KDS/GMC PUMP</h3>
+                <h3 className="text-xl font-semibold mb-3">CORDLESS POWER TOOLS</h3>
                 <div className="text-sm space-y-2">
                   <p>Capacity FAD I/s : 1.7 I/s - 12.9 I/s</p>
                   <p>Working pressure : 2 bar(e) - 14 bare(e)</p>
@@ -122,20 +122,20 @@ export default function Product3Page() {
             </div>
           </div>
 
-          {/* KDT PUMP */}
+          {/* QUICK RELEASE TORQUE WRENCHES */}
           <div className="bg-white rounded-lg overflow-hidden shadow-md">
             <div className="flex flex-col md:flex-row">
               <div className="w-full md:w-2/5">
                 <Image
-                  src="/image 41.png"
-                  alt="KDT PUMP"
+                  src="/image 62.png"
+                  alt="QUICK RELEASE TORQUE WRENCHES"
                   width={200}
                   height={200}
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
-                <h3 className="text-xl font-semibold mb-3">KDT PUMP</h3>
+                <h3 className="text-xl font-semibold mb-3">QUICK RELEASE TORQUE WRENCHES</h3>
                 <div className="text-sm space-y-2">
                   <p>Capacity FAD I/s : 1.7 I/s - 12.9 I/s</p>
                   <p>Working pressure : 2 bar(e) - 14 bare(e)</p>
@@ -145,20 +145,20 @@ export default function Product3Page() {
             </div>
           </div>
 
-          {/* KDI PUMP */}
+          {/* NON SPARKING TOOLS */}
           <div className="bg-white rounded-lg overflow-hidden shadow-md">
             <div className="flex flex-col md:flex-row">
               <div className="w-full md:w-2/5">
                 <Image
-                  src="/image 42.png"
-                  alt="KDI PUMP"
+                  src="/image 63.png"
+                  alt="NON SPARKING TOOLS"
                   width={200}
                   height={200}
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
-                <h3 className="text-xl font-semibold mb-3">KDI PUMP</h3>
+                <h3 className="text-xl font-semibold mb-3">NON SPARKING TOOLS</h3>
                 <div className="text-sm space-y-2">
                   <p>Capacity FAD I/s : 1.7 I/s - 12.9 I/s</p>
                   <p>Working pressure : 2 bar(e) - 14 bar(e)</p>
@@ -168,20 +168,20 @@ export default function Product3Page() {
             </div>
           </div>
 
-          {/* KOS PUMP */}
+          {/* INSULATED TOOLS */}
           <div className="bg-white rounded-lg overflow-hidden shadow-md">
             <div className="flex flex-col md:flex-row">
               <div className="w-full md:w-2/5">
                 <Image
-                  src="/image 43.png"
-                  alt="KOS PUMP"
+                  src="/image 64.png"
+                  alt="INSULATED TOOLS"
                   width={200}
                   height={200}
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
-                <h3 className="text-xl font-semibold mb-3">KOS PUMP</h3>
+                <h3 className="text-xl font-semibold mb-3">INSULATED TOOLS</h3>
                 <div className="text-sm space-y-2">
                   <p>Capacity FAD l/s : 1.7 l/s - 12.9 l/s</p>
                   <p>Working pressure : 2 bar(e) - 14 bar(e)</p>
@@ -191,13 +191,13 @@ export default function Product3Page() {
             </div>
           </div>
 
-          {/* SP BARE SHAFT PUMP */}
+          {/* DIGITAL TORQUE CONTROL SYSTEM */}
           <div className="bg-white rounded-lg overflow-hidden shadow-md">
             <div className="flex flex-col md:flex-row">
               <div className="w-full md:w-2/5">
                 <Image
-                  src="/image 44.png"
-                  alt="SP BARE SHAFT PUMP"
+                  src="/image 65.png"
+                  alt="DIGITAL TORQUE CONTROL SYSTEM"
                   width={200}
                   height={200}
                   className="w-full h-full object-cover"
@@ -205,7 +205,7 @@ export default function Product3Page() {
               </div>
               
               <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
-                <h3 className="text-xl font-semibold mb-3">SP BARE SHAFT PUMP</h3>
+                <h3 className="text-xl font-semibold mb-3">DIGITAL TORQUE CONTROL SYSTEM</h3>
                 <div className="text-sm space-y-2">
                   <p>Capacity FAD l/s : 1.7 l/s - 12.9 l/s</p>
                   <p>Working pressure : 2 bar(e) - 14 bar(e)</p>
@@ -218,22 +218,22 @@ export default function Product3Page() {
           </div>
         </div>
 
-        {/* SP MONOBLOC PUMP */}
+        {/* SNAP ON TOOLS STORAGE KIT */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
-          {/* SP MONOBLOC PUMP */}
+          {/* SNAP ON TOOLS STORAGE KIT */}
           <div className="bg-white rounded-lg overflow-hidden shadow-md">
             <div className="flex flex-col md:flex-row">
               <div className="w-full md:w-2/5">
                 <Image
-                  src="/image 45.png"
-                  alt="SP MONOBLOC PUMP"
+                  src="/image 66.png"
+                  alt="RIDE ON SCRUBBER"
                   width={200}
                   height={200}
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
-                <h3 className="text-xl font-semibold mb-3">SP MONOBLOC PUMP</h3>
+                <h3 className="text-xl font-semibold mb-3">SNAP ON TOOLS STORAGE KIT</h3>
                 <div className="text-sm space-y-2">
                   <p>Capacity FAD l/s : 1.7 l/s - 12.9 l/s</p>
                   <p>Working pressure : 2 bar(e) - 14 bar(e)</p>
@@ -243,20 +243,20 @@ export default function Product3Page() {
             </div>
           </div>
 
-          {/* SP COUPLED PUMPSET */}
+          {/* BLUE POINT HAMMERS SET */}
           <div className="bg-white rounded-lg overflow-hidden shadow-md">
             <div className="flex flex-col md:flex-row">
               <div className="w-full md:w-2/5">
                 <Image
-                  src="/image 46.png"
-                  alt="SP COUPLED PUMPSET"
+                  src="/image 67.png"
+                  alt="BLUE POINT HAMMERS SET"
                   width={200}
                   height={200}
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
-                <h3 className="text-xl font-semibold mb-3">SP COUPLED PUMPSET</h3>
+                <h3 className="text-xl font-semibold mb-3">BLUE POINT HAMMERS SET</h3>
                 <div className="text-sm space-y-2">
                   <p>Capacity FAD l/s : 1.7 l/s - 12.9 l/s</p>
                   <p>Working pressure : 2 bar(e) - 14 bar(e)</p>
@@ -266,20 +266,20 @@ export default function Product3Page() {
             </div>
           </div>
 
-          {/* CW ETERNA PUMP */}
+          {/* BLUE POINT SCREW DRIVERS SET */}
           <div className="bg-white rounded-lg overflow-hidden shadow-md">
             <div className="flex flex-col md:flex-row">
               <div className="w-full md:w-2/5">
                 <Image
-                  src="/image 47.png"
-                  alt="CW ETERNA PUMP"
+                  src="/image 68.png"
+                  alt="BLUE POINT SCREW DRIVERS SET"
                   width={200}
                   height={200}
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
-                <h3 className="text-xl font-semibold mb-3">CW ETERNA PUMP</h3>
+                <h3 className="text-xl font-semibold mb-3">BLUE POINT SCREW DRIVERS SET</h3>
                 <div className="text-sm space-y-2">
                   <p>Capacity FAD l/s : 1.7 l/s - 12.9 l/s</p>
                   <p>Working pressure : 2 bar(e) - 14 bar(e)</p>
@@ -289,20 +289,135 @@ export default function Product3Page() {
             </div>
           </div>
 
-          {/* SW ETERNA PUMP */}
+          {/* BLUE POINT SOCKETS SET */}
           <div className="bg-white rounded-lg overflow-hidden shadow-md">
             <div className="flex flex-col md:flex-row">
               <div className="w-full md:w-2/5">
                 <Image
-                  src="/image 50.png"
-                  alt="SW ETERNA PUMP"
+                  src="/image 69.png"
+                  alt="BLUE POINT SOCKETS SET"
                   width={200}
                   height={200}
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
-                <h3 className="text-xl font-semibold mb-3">SW ETERNA PUMP</h3>
+                <h3 className="text-xl font-semibold mb-3">MBLUE POINT SOCKETS SET</h3>
+                <div className="text-sm space-y-2">
+                  <p>Capacity FAD l/s : 1.7 l/s - 12.9 l/s</p>
+                  <p>Working pressure : 2 bar(e) - 14 bar(e)</p>
+                  <p>Installed motor power : 1.5 kW - 8.1 kW</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* BLUE POINT TORQUE WRENCH */}
+          <div className="bg-white rounded-lg overflow-hidden shadow-md">
+            <div className="flex flex-col md:flex-row">
+              <div className="w-full md:w-2/5">
+                <Image
+                  src="/image 70.png"
+                  alt="BLUE POINT TORQUE WRENCH "
+                  width={200}
+                  height={200}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
+                <h3 className="text-xl font-semibold mb-3">BLUE POINT TORQUE WRENCH </h3>
+                <div className="text-sm space-y-2">
+                  <p>Capacity FAD l/s : 1.7 l/s - 12.9 l/s</p>
+                  <p>Working pressure : 2 bar(e) - 14 bar(e)</p>
+                  <p>Installed motor power : 1.5 kW - 8.1 kW</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* BLUE POINT WRENCHES SET */}
+          <div className="bg-white rounded-lg overflow-hidden shadow-md">
+            <div className="flex flex-col md:flex-row">
+              <div className="w-full md:w-2/5">
+                <Image
+                  src="/image 71.png"
+                  alt="BLUE POINT WRENCHES SET"
+                  width={200}
+                  height={200}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
+                <h3 className="text-xl font-semibold mb-3">BLUE POINT WRENCHES SET</h3>
+                <div className="text-sm space-y-2">
+                  <p>Capacity FAD l/s : 1.7 l/s - 12.9 l/s</p>
+                  <p>Working pressure : 2 bar(e) - 14 bar(e)</p>
+                  <p>Installed motor power : 1.5 kW - 8.1 kW</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* BLUE POINT 4 DRAWERS TOOL BOX */}
+          <div className="bg-white rounded-lg overflow-hidden shadow-md">
+            <div className="flex flex-col md:flex-row">
+              <div className="w-full md:w-2/5">
+                <Image
+                  src="/image 72.png"
+                  alt="BLUE POINT 4 DRAWERS TOOL BOX"
+                  width={200}
+                  height={200}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
+                <h3 className="text-xl font-semibold mb-3">BLUE POINT 4 DRAWERS TOOL BOX</h3>
+                <div className="text-sm space-y-2">
+                  <p>Capacity FAD l/s : 1.7 l/s - 12.9 l/s</p>
+                  <p>Working pressure : 2 bar(e) - 14 bar(e)</p>
+                  <p>Installed motor power : 1.5 kW - 8.1 kW</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* BLUE POINT 5 DRAWERS TOOL BOX */}
+          <div className="bg-white rounded-lg overflow-hidden shadow-md">
+            <div className="flex flex-col md:flex-row">
+              <div className="w-full md:w-2/5">
+                <Image
+                  src="/image 73.png"
+                  alt="BLUE POINT 5 DRAWERS TOOL BOX"
+                  width={200}
+                  height={200}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
+                <h3 className="text-xl font-semibold mb-3">BLUE POINT 5 DRAWERS TOOL BOX</h3>
+                <div className="text-sm space-y-2">
+                  <p>Capacity FAD l/s : 1.7 l/s - 12.9 l/s</p>
+                  <p>Working pressure : 2 bar(e) - 14 bar(e)</p>
+                  <p>Installed motor power : 1.5 kW - 8.1 kW</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* BLUE POINT CUTTING PLIERS SET */}
+          <div className="bg-white rounded-lg overflow-hidden shadow-md">
+            <div className="flex flex-col md:flex-row">
+              <div className="w-full md:w-2/5">
+                <Image
+                  src="/image 74.png"
+                  alt="BLUE POINT CUTTING PLIERS SET"
+                  width={200}
+                  height={200}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="w-full md:w-3/5 bg-[#252525] text-white p-4">
+                <h3 className="text-xl font-semibold mb-3">BLUE POINT CUTTING PLIERS SET</h3>
                 <div className="text-sm space-y-2">
                   <p>Capacity FAD l/s : 1.7 l/s - 12.9 l/s</p>
                   <p>Working pressure : 2 bar(e) - 14 bar(e)</p>
@@ -406,4 +521,5 @@ export default function Product3Page() {
     </div>
   )
 }
+
 

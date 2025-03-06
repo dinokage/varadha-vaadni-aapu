@@ -47,14 +47,14 @@ export function HeroCarousel() {
   }, [api]);
 
   return (
-    <div className="w-full">
+    <div className="w-full mb-12">
       <Carousel setApi={setApi} opts={{ loop: true }}>
         <CarouselContent>
           {data.map((item, index) => (
             <CarouselItem key={index}>
               <section
                 key={index}
-                className="container mx-auto px-4 py-16 md:py-24 flex flex-col md:flex-row items-center"
+                className="mx-auto px-4 py-16 md:py-24 flex flex-col md:flex-row items-center justify-between"
               >
                 <div className="md:w-1/2 mb-8 md:mb-0">
                   <h1 className="text-5xl md:text-6xl font-bold mb-6">
@@ -74,13 +74,14 @@ export function HeroCarousel() {
                   </p>
                 </div>
 
-                <div className="md:w-1/2 relative">
-                  <div className="relative w-full h-[300px] md:h-[400px]">
+                <div className="md:w-1/2 relative ">
+                  <div className="relative w-full h-[500px] md:h-[400px]">
                     <Image
                       src={item.image}
                       alt="SEW Gear Motors"
-                      fill
-                      className="object-contain"
+                      width={800}
+                      height={1000}
+                      objectFit="contain"
                       priority
                     />
                   </div>

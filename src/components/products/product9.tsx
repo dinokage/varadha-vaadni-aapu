@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { Search, ChevronDown, Twitter, Facebook, Linkedin } from "lucide-react"
+import {  ChevronDown, Twitter, Facebook, Linkedin } from "lucide-react"
 import Link from "next/link"
 
 export default function Product9Page() {

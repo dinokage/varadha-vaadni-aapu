@@ -1,35 +1,36 @@
-import Image from "next/image"
+import Image from "next/image";
 
 export default function ServicesPage() {
   return (
     <div className="flex flex-colbg-[#fff9e3]">
       {/* Navigation */}
-      
 
       <main className="flex-grow">
         {/* Services Title */}
         <section className="relative">
           <div className="bg-[#252525] text-white py-8 rounded-b-[100px] mb-8">
-            <h1 className="text-4xl font-bold text-center text-[#00aeef]">Services</h1>
+            <h1 className="text-4xl font-bold text-center text-[#00aeef]">
+              Services
+            </h1>
           </div>
         </section>
 
         {/* Services Grid */}
-        <div className="w-[30vw] h-screen mx-auto px-4 grid md:grid-cols-2 gap-8 mb-12">
+        <div className="w-[60vw] mx-auto px-4 grid md:grid-cols-2 gap-20 mb-12">
           {/* Air Compressors Services */}
           <div className="relative overflow-hidden rounded-lg">
             <div className="absolute offset top-0 left-0 bg-[#252525] text-white py-2 px-6 rounded-br-lg z-[-10]">
               <h2 className="font-semibold mr-10">Air Compressors Services</h2>
             </div>
             <Image
-              src="/services/ser-1.png?height=400&width=600"
+              src="/services/ser-1.png?height=300&width=300"
               alt="Air Compressor"
               width={300}
               height={300}
               objectFit="contain"
               className="rounded-lg float-right"
             />
-            <div className="absolute bottom-0 left-0 bg-[#252525]/80 text-white p-4 w-full">
+            <div className="absolute bottom-0 right-0 bg-[#252525]/80 text-white p-4 w-[58%]">
               <ul className="grid grid-cols-1 gap-1 text-sm">
                 <li className="flex items-center">
                   <span className="h-2 w-2 bg-[#00aeef] rounded-full mr-2"></span>
@@ -69,13 +70,14 @@ export default function ServicesPage() {
               <h2 className="font-semibold">Service, Repair & Parts</h2>
             </div>
             <Image
-              src="/services/ser-2.png?height=400&width=600"
+              src="/services/ser-2.png?height=300&width=300"
               alt="Service and Repair"
-              width={600}
-              height={400}
-              className="w-full h-auto rounded-lg"
+              width={300}
+              height={300}
+              objectFit="contain"
+              className="rounded-lg"
             />
-            <div className="absolute bottom-0 right-0 bg-[#252525]/80 text-white p-4 w-full">
+            <div className="absolute bottom-0 left-0 bg-[#252525]/80 text-white p-4 w-[58%]">
               <ul className="grid grid-cols-1 gap-1 text-sm">
                 <li className="flex items-center">
                   <span className="h-2 w-2 bg-[#00aeef] rounded-full mr-2"></span>
@@ -109,19 +111,20 @@ export default function ServicesPage() {
             </div>
           </div>
 
-          {/* Ancillary Products */}
+          {/*Ancillary Products */}
           <div className="relative overflow-hidden rounded-lg">
-            <div className="absolute top-0 left-0 bg-[#252525] text-white py-2 px-6 rounded-br-lg z-10">
-              <h2 className="font-semibold">Ancillary Products</h2>
+            <div className="absolute offset top-0 left-0 bg-[#252525] text-white py-2 px-6 rounded-br-lg z-[-10]">
+              <h2 className="font-semibold mr-10">Ancillary Products</h2>
             </div>
             <Image
-              src="/services/ser-3.png?height=400&width=600"
-              alt="Ancillary Products"
-              width={600}
-              height={400}
-              className="w-full h-auto rounded-lg"
+              src="/services/ser-3.png?height=300&width=300"
+              alt="Air Compressor"
+              width={300}
+              height={300}
+              objectFit="contain"
+              className="rounded-lg float-right"
             />
-            <div className="absolute bottom-0 left-0 bg-[#252525]/80 text-white p-4 w-full">
+            <div className="absolute bottom-0 right-0 bg-[#252525]/80 text-white p-4 w-[58%]">
               <ul className="grid grid-cols-1 gap-1 text-sm">
                 <li className="flex items-center">
                   <span className="h-2 w-2 bg-[#00aeef] rounded-full mr-2"></span>
@@ -137,37 +140,34 @@ export default function ServicesPage() {
                 </li>
                 <li className="flex items-center">
                   <span className="h-2 w-2 bg-[#00aeef] rounded-full mr-2"></span>
-                  Compressed air condensate
+                  Rotary screw compressors
                 </li>
                 <li className="flex items-center">
                   <span className="h-2 w-2 bg-[#00aeef] rounded-full mr-2"></span>
-                  Pipework
+                  Compressed air condensate treatment
                 </li>
                 <li className="flex items-center">
                   <span className="h-2 w-2 bg-[#00aeef] rounded-full mr-2"></span>
-                  Equipment for compressed air
-                </li>
-                <li className="flex items-center">
-                  <span className="h-2 w-2 bg-[#00aeef] rounded-full mr-2"></span>
-                  Industrial gases & vacuum
+                  Pipework for compressed air, industrial gases & vacuum
                 </li>
               </ul>
             </div>
           </div>
 
-          {/* Industrial Applications */}
+          {/* Indistrial Applications */}
           <div className="relative overflow-hidden rounded-lg">
             <div className="absolute top-0 right-0 bg-[#252525] text-white py-2 px-6 rounded-bl-lg z-10">
               <h2 className="font-semibold">Industrial Applications</h2>
             </div>
             <Image
-              src="/services/ser-4.png?height=400&width=600"
-              alt="Industrial Applications"
-              width={600}
-              height={400}
-              className="w-full h-auto rounded-lg"
+              src="/services/ser-4.png?height=300&width=300"
+              alt="Service and Repair"
+              width={300}
+              height={300}
+              objectFit="contain"
+              className="rounded-lg"
             />
-            <div className="absolute bottom-0 right-0 bg-[#252525]/80 text-white p-4 w-full">
+            <div className="absolute bottom-0 left-0 bg-[#252525]/80 text-white p-4 w-[58%]">
               <ul className="grid grid-cols-1 gap-1 text-sm">
                 <li className="flex items-center">
                   <span className="h-2 w-2 bg-[#00aeef] rounded-full mr-2"></span>
@@ -191,7 +191,7 @@ export default function ServicesPage() {
                 </li>
                 <li className="flex items-center">
                   <span className="h-2 w-2 bg-[#00aeef] rounded-full mr-2"></span>
-                  Semiconductor & Electronics
+                  Semiconductor & electronics
                 </li>
                 <li className="flex items-center">
                   <span className="h-2 w-2 bg-[#00aeef] rounded-full mr-2"></span>
@@ -211,10 +211,10 @@ export default function ServicesPage() {
             <div className="flex flex-col md:flex-row">
               <div className="md:w-1/2">
                 <Image
-                  src="/services/ser-5.png?height=400&width=600"
+                  src="/services/ser-5.png?height=300&width=300"
                   alt="Knowledge Hub"
-                  width={600}
-                  height={400}
+                  width={300}
+                  height={300}
                   className="w-full h-auto rounded-l-lg"
                 />
               </div>
@@ -260,8 +260,6 @@ export default function ServicesPage() {
       </main>
 
       {/* Footer */}
-      
     </div>
-  )
+  );
 }
-

@@ -1,6 +1,9 @@
+"use client"
+
 import Image from "next/image"
 import {  ChevronDown, Twitter, Facebook, Linkedin } from "lucide-react"
 import Link from "next/link"
+import { DropDown } from "../DropDown"
 
 export default function Product2Page() {
   return (
@@ -37,22 +40,7 @@ export default function Product2Page() {
         {/* Atlas Copco Section */}
         <div className="flex flex-wrap justify-between items-center mb-8">
           <h2 className="text-2xl font-bold border-b-2 border-[#00aeef] pb-1">SEW Eurodrive</h2>
-          <div className="relative w-full md:w-64 mt-4 md:mt-0">
-            <select className="w-full border border-[#a9a9a9] rounded px-4 py-2 appearance-none">
-              <option>--Select--</option>
-              <option>Atlas Copco</option>
-              <option>Kirloskar</option>
-              <option>Danfoss Drives</option>
-              <option>Symphony Air Coolers</option>
-              <option>Snap On Tools</option>
-              <option>Praj Hipurity Systems</option>
-              <option>Nilfisk</option>
-              <option>WEG Motors</option>
-              <option>Everest Vacuum Pumps & Blowers</option>
-              <option>BMD Engineering Scrappers</option>
-            </select>
-            <ChevronDown className="absolute right-3 top-1/2 transform -translate-y-1/2 h-5 w-5" />
-          </div>
+          <DropDown />
         </div>
 
         {/* Product Grid */}
@@ -277,7 +265,11 @@ export default function Product2Page() {
       </main>
 
       {/* Footer */}
+<<<<<<< Updated upstream
       
+=======
+     
+>>>>>>> Stashed changes
     </div>
   )
 }

@@ -6,7 +6,11 @@ import { Search, } from "lucide-react"
 export default function Navbar() {
 
   return (
+<<<<<<< Updated upstream
     <header className="bg-[#252525] text-white shadow-lg  sticky top-0 z-50">
+=======
+    <header className="bg-[#b9b9b9] text-black font-bold shadow-lg">
+>>>>>>> Stashed changes
       <div className="container mx-auto px-4 py-4 flex flex-wrap items-center justify-between">
         <div className="flex items-center">
         <Link href="/" className="flex items-center">
@@ -19,14 +23,18 @@ export default function Navbar() {
         <Link href="/" className="hover:text-[#00aeef]">
           HOME
         </Link>
+
         <Link href="/about" className="hover:text-[#00aeef]">
           ABOUT US
         </Link>
-        <Link href="/products" className="text-[#00aeef] border-b-2 border-[#00aeef]">
+        <Link href="/products" className="hover:text-[#00aeef] ">
           PRODUCTS
         </Link>
         <Link href="/services" className="hover:text-[#00aeef]">
           SERVICES
+        </Link>
+        <Link href="/ContactUs" className="hover:text-[#00aeef]">
+        CONTACT US
         </Link>
         <Link href="/gallery" className="hover:text-[#00aeef]">
           GALLERY
@@ -37,10 +45,10 @@ export default function Navbar() {
         <input
           type="text"
           placeholder="Search here"
-          className="w-full md:w-64 px-4 py-2 rounded-full text-white"
+          className="w-full md:w-64 px-4 py-2 rounded-full text-GREY"
         />
         <button className="absolute right-3 top-1/2 transform -translate-y-1/2">
-          <Search className="h-5 w-5 text-white" />
+          <Search className="h-5 w-5 text-GREY" />
         </button>
         </div>
       </div>

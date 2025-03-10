@@ -1,5 +1,7 @@
+"use client"
 import Image from "next/image"
 import {  ChevronDown} from "lucide-react"
+import { DropDown } from "../DropDown"
 // import Link from "next/link"
 
 export default function ProductPage() {
@@ -17,22 +19,7 @@ export default function ProductPage() {
         {/* Atlas Copco Section */}
         <div className="flex flex-wrap justify-between items-center mb-8">
           <h2 className="text-2xl font-bold border-b-2 border-[#00aeef] pb-1">Atlas Copco</h2>
-          <div className="relative w-full md:w-64 mt-4 md:mt-0">
-            <select className="w-full border border-[#a9a9a9] rounded px-4 py-2 appearance-none">
-              <option>--Select--</option>
-              <option>SEW Eurodrive</option>
-              <option>Kirloskar</option>
-              <option>Danfoss Drives</option>
-              <option>Symphony Air Coolers</option>
-              <option>Snap On Tools</option>
-              <option>Praj Hipurity Systems</option>
-              <option>Nilfisk</option>
-              <option>WEG Motors</option>
-              <option>Everest Vacuum Pumps & Blowers</option>
-              <option>BMD Engineering Scrappers</option>
-            </select>
-            <ChevronDown className="absolute right-3 top-1/2 transform -translate-y-1/2 h-5 w-5" />
-          </div>
+          <DropDown />
         </div>
 
         {/* Product Grid */}

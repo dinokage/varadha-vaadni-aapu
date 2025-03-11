@@ -6,11 +6,7 @@ import { Search, } from "lucide-react"
 export default function Navbar() {
 
   return (
-<<<<<<< Updated upstream
     <header className="bg-[#252525] text-white shadow-lg  sticky top-0 z-50">
-=======
-    <header className="bg-[#b9b9b9] text-black font-bold shadow-lg">
->>>>>>> Stashed changes
       <div className="container mx-auto px-4 py-4 flex flex-wrap items-center justify-between">
         <div className="flex items-center">
         <Link href="/" className="flex items-center">

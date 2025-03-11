@@ -1,4 +1,5 @@
 import { Input } from "@/components/ui/input"; // Assuming you have a custom Input component
+import Image from "next/image";
 
 export default function Contact() {
   return (
@@ -15,7 +16,7 @@ export default function Contact() {
           <h2 className="text-2xl font-bold">Get in touch with us for furthur assistance</h2>
 
           <div className="flex items-center space-x-4">
-            <img src="/contact1.png" alt="Sales Office" className="w-12 h-12" />
+            <Image src="/contact1.png" alt="Sales Office" className="w-12 h-12" />
             <div>
               <p className="font-semibold">Sales Office</p>
               <p># 39-11-3/2, 1st Floor, Above Punjab National Bank of Commerce, Muralinagar, Bank Street, Sector-11, Visakhapatnam - 530007, AP, India.</p>
@@ -26,7 +27,7 @@ export default function Contact() {
           </div>
 
           <div className="flex items-center space-x-4">
-            <img src="/contact2.png" alt="Phone Number" className="w-12 h-12" />
+            <Image src="/contact2.png" alt="Phone Number" className="w-12 h-12"  />
             
             <div>
               <p className="font-semibold">Phone Number</p>
@@ -35,7 +36,7 @@ export default function Contact() {
           </div>
 
           <div className="flex items-center space-x-4">
-            <img src="/contact3.png" alt="Email Address" className="w-12 h-12" />
+            <Image src="/contact3.png" alt="Email Address" className="w-12 h-12" />
             <div>
               <p className="font-semibold">Email Address</p>
               <p>info@classique.co.in / kk@classique.co.in</p>
@@ -74,12 +75,12 @@ export default function Contact() {
           </div>
 
           {/* Blue Circles - Positioned around the Form */}
-          <img
+          <Image
             src="/round2.png"
             alt="Blue Circle Top Right"
             className="absolute top-[-80px] right-[-50px] w-[220px] h-[220px] -z-1"
           />
-          <img
+          <Image
             src="/round1.png"
             alt="Blue Circle Bottom Left"
             className="absolute bottom-[-50px] left-[-80px] w-[200px] h-[200px] -z-1"

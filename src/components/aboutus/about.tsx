@@ -1,6 +1,6 @@
 import Image from "next/image"
-import { Search, Twitter, Facebook, Linkedin, MapPin, Mail, Phone } from "lucide-react"
-import Link from "next/link"
+// import { Search, Twitter, Facebook, Linkedin, MapPin, Mail, Phone } from "lucide-react"
+// import Link from "next/link"
 
 export default function About() {
   return (

@@ -1,6 +1,6 @@
 import Image from "next/image"
-import { Twitter, Facebook, Linkedin } from "lucide-react"
-import Link from "next/link"
+// import { Twitter, Facebook, Linkedin } from "lucide-react"
+// import Link from "next/link"
 
 export default function GalleryPage() {
   // Gallery images data

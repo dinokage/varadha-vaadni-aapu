@@ -1,8 +1,8 @@
 "use client"
 
 import Image from "next/image"
-import {  ChevronDown, Twitter, Facebook, Linkedin } from "lucide-react"
-import Link from "next/link"
+// import {  ChevronDown, Twitter, Facebook, Linkedin } from "lucide-react"
+// import Link from "next/link"
 import { DropDown } from "../DropDown"
 
 export default function Product2Page() {
@@ -265,11 +265,7 @@ export default function Product2Page() {
       </main>
 
       {/* Footer */}
-<<<<<<< Updated upstream
       
-=======
-     
->>>>>>> Stashed changes
     </div>
   )
 }

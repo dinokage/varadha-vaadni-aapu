@@ -1,4 +1,3 @@
-import { useRouter } from "next/navigation"
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -11,7 +10,6 @@ import { Button } from "./ui/button"
 import Link from "next/link"
 
 export const DropDown = () => {
-    const router = useRouter()
     return (
         <DropdownMenu>
         <DropdownMenuTrigger asChild>

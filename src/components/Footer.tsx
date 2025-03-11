@@ -4,9 +4,9 @@ import React from 'react'
 
 function Footer() {
   return (
-    <footer className="bg-[#252525] text-white mt-12">
+    <footer className="bg-gradient-to-l from-neutral-400 to-white text-black mt-12">
         <div className="container mx-auto px-4 py-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-col-1 md:grid-cols-3 gap-8">
             {/* Company Info */}
             <div>
               <div className="flex items-center mb-4">

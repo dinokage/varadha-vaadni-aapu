@@ -9,7 +9,7 @@ function HomeServices() {
         </div>
     <div className="w-[30vw] mx-auto px-4 grid md:grid-cols-2 gap-8 mb-12">
         <div className="relative overflow-hidden rounded-lg">
-                    <div className="absolute offset top-0 left-0 bg-[#252525] text-white py-2 px-6 rounded-br-lg z-[-10]">
+                    <div className="absolute offset top-0 right-5 bg-[#252525] text-white py-2 px-6 rounded-br-lg z-[-10]">
                       <h2 className="font-semibold mr-10">Air Compressors Services</h2>
                     </div>
                     <Image
@@ -56,8 +56,8 @@ function HomeServices() {
         
                   {/* Service, Repair & Parts */}
                   <div className="relative overflow-hidden rounded-lg">
-                    <div className="absolute top-0 right-0 bg-[#252525] text-white py-2 px-6 w-full rounded-bl-lg z-[-1]">
-                      <h2 className="font-semibold float-right">Service, Repair & Parts</h2>
+                    <div className="absolute top-0  left-10 bg-[#252525] text-white py-2 px-6 w-full rounded-bl-lg z-[-1]">
+                      <h2 className="font-semibold float-right">  Service, Repair & Parts</h2>
                     </div>
                     <Image
                       src="/services/ser-2.png?height=400&width=600"

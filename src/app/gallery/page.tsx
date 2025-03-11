@@ -35,16 +35,16 @@ export default function GalleryPage() {
 
           {/* Gallery Tabs */}
           <div className="flex justify-center space-x-8 md:space-x-16 px-4">
-            <button className="pb-2 border-b-2 border-[#00aeef] text-white font-medium">Images</button>
+            <button className="pb-2 border-b-2 border-[#00aeef] hover:text-white font-medium">Images</button>
             <button className="pb-2 border-b-2 border-transparent text-gray-400 hover:text-white font-medium">
               Videos
             </button>
             <button className="pb-2 border-b-2 border-transparent text-gray-400 hover:text-white font-medium">
               Documents
             </button>
-            <button className="pb-2 border-b-2 border-transparent text-gray-400 hover:text-white font-medium">
+            <Link href="/certificates" className="pb-2 border-b-2 border-transparent text-gray-400 hover:text-white font-medium">
               Certificates & Awards
-            </button>
+            </Link>
           </div>
         </div>
       </div>
